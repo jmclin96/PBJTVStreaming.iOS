@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "PBJTVStreaming.iOS",
             url: "https://github.com/jmclin96/PBJTVStreaming.iOS/raw/main/PBJTVStreaming.xcframework.zip",
-            checksum: "24e971ae4c08783dca3af29b50c18d90c808e92a730355c1abbdb559058d7906"
+            checksum: "3f4d64b2426aacb5e222c460258a9d42bae66b9b684fbec8ce725017aa50378c"
         ),
     ]
 )
