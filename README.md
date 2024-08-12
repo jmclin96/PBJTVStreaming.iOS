@@ -2,4 +2,6 @@ After any updates are made to the PBJTVStreaming SDK, you must run the framework
 
 ```swift package compute-checksum PBJTVStreaming.xcframework.zip```
 
-After this, you'll take the outputted value and update the checksum in the Package.swift within the GitHub repo and then push the changes.
+After this, you'll take the outputted value and update the checksum in the Package.swift as well as bumping the version number in the package link within the GitHub repo and then push the changes.
+
+You'll need to create a new release on GitHub with the latest version tag matching the updated link you added in the last step and then update the version used in the main app afterwards.
