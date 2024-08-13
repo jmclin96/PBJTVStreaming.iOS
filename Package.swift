@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "PBJTVStreaming.iOS",
             url: "https://github.com/jmclin96/PBJTVStreaming.iOS/raw/main/PBJTVStreaming.xcframework.zip?v=1.0.4",
-            checksum: "dda3e63c3a5ec6e2b49fcdfbd4c4e859f8c579a82f4ea4dee5e8c5d775d987c4"
+            checksum: "cc83db6b898b6a45d7418afc880bc4da34faf2d8be9402afb7bfe59ddf5df733"
         ),
     ]
 )
