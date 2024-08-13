@@ -16,8 +16,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "PBJTVStreaming.iOS",
-            url: "https://github.com/jmclin96/PBJTVStreaming.iOS/raw/main/PBJTVStreaming.xcframework.zip?v=1.0.4",
-            checksum: "247c15b153055114467d5d9a5c2db3db1f2f2057aba89796a38f9a9ec67acd72"
+            url: "https://github.com/jmclin96/PBJTVStreaming.iOS/raw/main/PBJTVStreaming.xcframework.zip?v=$randomNum",
+            checksum: "17b3263f9154ad470f1b537f95f375525df14e06dd4e6855e942dde7f473578e"
         ),
     ]
 )
